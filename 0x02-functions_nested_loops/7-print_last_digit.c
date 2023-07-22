@@ -2,7 +2,7 @@
 
 /**
  * print-last-digit - prints the last digit of a number
- *@n: The number to be tested
+ *@n: The number to be treated
  *Return: value of the last digit of a number
  */
 
