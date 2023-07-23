@@ -1,9 +1,11 @@
 #include <stdio.h>
+
 /**
  * main - prints the sum of even fibonacci numbers
  *less than 400000
  *Return: nothing
  */
+
 int main(void)
 {
 	int i = 0;
