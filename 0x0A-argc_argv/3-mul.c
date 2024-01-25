@@ -10,22 +10,19 @@
  */
 int main(int argc, char *argv[])
 {
-	int i;
+	int num1 = 0, num2 = 0;
 
-	for (i = 1; i < argc; i++)
+	if (argc == 3)
 	{
-		if (i > 0)
-		{
-			int num1 = atoi(argv[i]);
-			int num2 = atoi(argv[i + 1]);
-			int mul = num1 * num2;
+		num1 = atoi(argv[1]);
+		num2 = atoi(argv[2]);
 
-			printf("%d\n", mul);
-		}
-		else
-		{
-			printf("Error\n");
-		}
+		printf("%d\n", num1 * num2);
+	}
+	else
+	{
+		printf("Error\n");
+		return (1);
 	}
 	return (0);
 }
