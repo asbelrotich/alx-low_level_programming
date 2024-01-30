@@ -3,7 +3,7 @@
 #include <stdlib.h>
 /**
  * alloc_grid - To grid measures of arays
- * @width: size 
+ * @width: size
  * @height: size
  *
  * Return: measure of array
@@ -23,7 +23,7 @@ int **alloc_grid(int width, int height)
 	}
 	for (i = 0; i < height; i++)
 	{
-		a[i] = malloc(sizeof(int) *width);
+		a[i] = malloc(sizeof(int) * width);
 		if (a[i] == NULL)
 		{
 			for (j = i; j >= 0; j--)
