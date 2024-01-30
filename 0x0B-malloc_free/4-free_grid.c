@@ -3,7 +3,7 @@
 /**
  * free_grid - frees dimensional grid
  * @grid: address of the 2D grid
- * @heigh: height of te grid
+ * @height: height of te grid
  *
  * Return: nothing
  */
